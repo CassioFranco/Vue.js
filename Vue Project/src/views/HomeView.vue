@@ -1,5 +1,5 @@
 <script setup>
-import HelloWorld from '@/components/app.js';
+import HelloWorld from '@/components/App.vue';
 
 </script>
 
