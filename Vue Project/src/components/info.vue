@@ -29,18 +29,21 @@ export default {
     components: {
         Picture
     },
+    props: {
+        email: String,
+        esta_trabalhando:Boolean
+    },
+
     data() {
         return {
-            esta_trabalhando: true,
             mostrar_email: false,
-            email: 'cassio-franco@hotmail.com',
             meu_link: 'https://google.com',
             textobotao: 'Mostrar e-mail',
             backend_technologies: ['JavaScript', 'PHP', 'Python'],
             frontend_technologies: [
-                {id:1,language:'HTML'},
-                {id:2,language:'CSS'},
-                {id:3,language:'Vue'}
+                { id: 1, language: 'HTML' },
+                { id: 2, language: 'CSS' },
+                { id: 3, language: 'Vue' }
             ]
         }
     },
