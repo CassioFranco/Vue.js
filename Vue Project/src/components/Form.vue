@@ -33,6 +33,7 @@ export default {
         }
     },
 
+        
     methods: {
         enviarFormulario(e) {
 
